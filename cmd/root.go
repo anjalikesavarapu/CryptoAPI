@@ -46,6 +46,8 @@ func init() {
 	// Cobra also supports local flags, which will only run
 	// when this action is called directly.
 	rootCmd.Flags().BoolP("toggle", "t", false, "Help message for toggle")
+	rootCmd.PersistentFlags().BoolP("markets","m", false, "Get the market listings of cryptourrency")
+
 }
 
 
